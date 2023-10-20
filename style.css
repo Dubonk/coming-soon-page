@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+#container {
+    display: flex;
+    width: 700px;
+    background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+    border-radius: 8px;
+    box-shadow: -2px 3px 10px rgb(165, 93, 42);
+}
+
+.leftInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(139, 115, 83);
+    padding: 15px 20px 35px 10px;
+}
+
+#cookie {
+    margin-top: 25px;
+    width: 50%;
+}
+
+#storeName {
+    font-size: 22px;
+    text-align: center;
+}
+
+#title {
+    font-size: 36px;
+    text-align: left;
+}
+
+#comingSoonMessage {
+
+}
+
+#rightInfo {
+    height: 466.6px;
+}
+
+img {
+    width: 350px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
